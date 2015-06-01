@@ -5,3 +5,18 @@ It creates the appropriate git files that keep track of changes made to the file
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area isn’t permanent and is the area where you decide what is going to be committed.  It lets you pick and choose what to commit instead of having to commit every change you made.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add only the relevant files that you changed instead of having all changes added at once.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Trying out new feature or different versions of a game would be easier in branches because you could switch between them without having to add/delete them every time.
+
+How do the diagrams help you visualize the branch structure?
+They make it easier to see how the different versions are related.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It’s a combined version of the two files.  It’s diagramed that way because it shows where each version came from.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging is fast and easy.  Manually merging takes more time but makes sure the merge is correct.
